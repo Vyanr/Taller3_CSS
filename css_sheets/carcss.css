@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    margin: 0px;
+    width: 100%;
+    
+    
+}
+
+label{
+   margin: 15px 9px;
+   display: block;
+ font-family: monospace;
+font-weight: 100%;
+color: whitesmoke;
+
+
+   
+}
+button{
+    display: block;
+    margin: 20px 5px;
+    position: relative;
+    left: 250px
+}
+
+
+label + input {
+
+    border-radius: 7px;
+    width: 40%;
+
+}
+.form-container{
+
+    background:linear-gradient(45deg, #3a6186,#89253e);
+    width: 30%;
+    height: 1200px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 40px;
+    text-align: center;
+    display: inline-block;
+   vertical-align: bottom;
+   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    margin: 5% 35%;
+
+}
+
